@@ -2,7 +2,11 @@
   "name": "kanjihelper",
   "version": "1.0.0",
   "description": "Preliminary repository for the KanjiHelper website.",
-  "main": "index.js",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,8 +19,5 @@
   "bugs": {
     "url": "https://github.com/Eddy-Rogers/KanjiHelper/issues"
   },
-  "homepage": "https://github.com/Eddy-Rogers/KanjiHelper#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/Eddy-Rogers/KanjiHelper#readme"
 }
